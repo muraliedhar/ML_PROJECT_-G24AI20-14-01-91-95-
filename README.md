@@ -1,12 +1,12 @@
-# 🤚 Hand Gesture Recognition Using SVM
+#  Hand Gesture Recognition Using SVM
 
 This project implements a static hand gesture recognition system using computer vision and machine learning techniques, specifically the Support Vector Machine (SVM) classifier.
 
-## 📌 Project Summary
+##  Project Summary
 
 We developed a vision-based model that classifies hand gestures corresponding to alphabetic characters (A–F). The system uses a Bag-of-Visual-Words (BoVW) model for image representation and an SVM for classification.
 
-## 🔧 Technologies & Tools
+##  Technologies & Tools
 - Python
 - OpenCV
 - scikit-learn
@@ -15,7 +15,7 @@ We developed a vision-based model that classifies hand gestures corresponding to
 - Canny Edge Detection
 - MiniBatch KMeans (for clustering)
 
-## 📁 File Descriptions
+##  File Descriptions
 
 - **`hand_gesture_svm.py`**  
   Main script that loads images, extracts SIFT descriptors, builds BoVW histograms, trains and tests the SVM classifier.
@@ -32,7 +32,7 @@ We developed a vision-based model that classifies hand gestures corresponding to
 - **`output.txt.txt`**  
   Log file containing image paths and possible descriptor counts (for debugging or analysis).
 
-## 🧠 How It Works
+##  How It Works
 
 1. **Preprocessing**:  
    - Resize image  
@@ -50,11 +50,11 @@ We developed a vision-based model that classifies hand gestures corresponding to
    - Train an SVM with linear kernel on BoVW histograms  
    - Evaluate using accuracy, precision, recall, and F1-score
 
-## ✅ Results
+##  Results
 
 The SVM classifier showed strong performance across all gesture classes. The system is efficient, scalable, and adaptable for real-time or larger gesture datasets.
 
-## 🚀 Future Work
+##  Future Work
 
 - Extend to dynamic gesture recognition  
 - Integrate real-time webcam input  
